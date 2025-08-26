@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Av. Gov. Agamenon Magalhães, <br/> nº 4096 Recife - PE, <br/> CEP: 50050-290",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -88,7 +88,7 @@
     "title": "A_Definir",
     "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph":"A_Definir",
+    "paragraph": "A_Definir",
     "modal": "a_Definir",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",
@@ -96,10 +96,10 @@
       "miniTag": "A_Definir",
       "title": "A_Definir",
       "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
-      "labelFacebook": "A_Definir",
-      "labelLinkedin": "A_Definir",
-      "labelX": "A_Definir"
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no LinkedIn",
+      "labelX": "Siga-me no X"
     }
   },
   "ctaSecondary": {
