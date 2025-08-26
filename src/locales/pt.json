@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM RECIFE - PE",
+    "title": "A vida não espera  <span class=\"text-primary font-bold\">pela justiça</span>",
+    "subtitle": "Cuidamos do que é essencial para você, com atenção única e soluções que vão além da lei.",
+    "ctaButtonText": "Vamos resolver agora",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial mediante agendamento e online para todo Brasil."
     }
   },
   "features": {
