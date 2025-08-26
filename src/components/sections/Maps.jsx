@@ -44,7 +44,7 @@ export default function Maps({ colorMode }) {
           <div className="relative w-full h-auto bg-no-repeat bg-cover shadow-custom-opacity shadow-shadowMaps/50 desktop1:bg-center tablet1:w-full rounded-xl">
             <div className="opacity-90">
               <iframe
-                src={t("maps.embedsrc")}
+                src={content.texts.maps.embedsrc}
                 width="100%"
                 height=""
                 style={{ border: 0 }}

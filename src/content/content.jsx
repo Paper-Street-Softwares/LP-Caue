@@ -420,7 +420,7 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "a_Definir",
+      embedsrc: "https://www.google.com/maps/embed?pb=!4v1756212489575!6m8!1m7!1sCs2Yyl9C0HAdwaLR21CVEQ!2m2!1d-8.041318432500018!2d-34.88354085245371!3f339.03!4f0!5f0.7820865974627469",
     },
     about: {
       imagem: {
@@ -546,7 +546,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir", //sem "https://"
+      blogLink: "albuquerquealexandrino.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",

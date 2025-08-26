@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes",
       "maps": "Mapa"
     },
@@ -75,9 +76,9 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Recife",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
@@ -103,7 +104,7 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\" font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\" font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -136,11 +137,11 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
     "subtitle": "A_Definir",
     "labelCards": "A_Definir",
-    "label": "A_Definir",
+    "label": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "blogLink": "A_Definir"
   },
   "faq": {

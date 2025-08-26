@@ -8,6 +8,7 @@ import {
   UserSearch,
   ServerIcon,
   HelpCircle,
+  FileText,
   AlignJustify,
   MapPin,
 } from "lucide-react";
@@ -44,6 +45,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <HomeIcon />,
     <UserSearch />,
     <ServerIcon />,
+    <FileText />,
     <HelpCircle />,
     <MapPin />,
   ];

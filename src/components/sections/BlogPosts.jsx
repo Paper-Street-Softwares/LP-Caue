@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import WordPressBlogCard from "../cards/WordPressBlogCard";
 import SectionArea from "../sectionElements/SectionArea";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import SectionHeader from "../sectionElements/SectionHeader";
-import content from "../../content/content";
 import Paragraphs from "../sectionElements/Paragraphs";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import content from "../../content/content";
 
 function BlogPosts() {
+  const { t } = useTranslation();
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -15,7 +17,7 @@ function BlogPosts() {
       `https://public-api.wordpress.com/rest/v1.1/sites/${content.texts.blog.blogLink}/posts/`
     )
       .then((response) => response.json())
-      .then((data) => setPosts(data.posts)) // Ajustado para pegar a chave correta
+      .then((data) => setPosts(data.posts))
       .catch((error) => console.error("Erro ao buscar posts:", error));
   }, []);
 
@@ -25,14 +27,15 @@ function BlogPosts() {
         <SectionWrapper>
           <SectionHeader
             className="text-center"
-            miniTitle={content.texts.blog.miniTag}
-            sectionHeaderTitle={content.texts.blog.title}
-            sectionHeaderSubtitle={content.texts.blog.subtitle}
+            miniTitle={t("blog.miniTag")}
+            sectionHeaderTitle={t("blog.title")}
+            sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
             titleColorSet="text-white"
             subtitleColorSet="text-white"
             type=""
           />
+
           <ul className="flex flex-wrap gap-[30px] justify-center mb-[80px]">
             {posts.slice(0, 3).map((post) => (
               <li key={post.ID}>
@@ -64,13 +67,15 @@ function BlogPosts() {
               </li>
             ))}
           </ul>
+
           <MotionDivDownToUp>
             <Paragraphs className="text-center text-white underline transition hover:scale-110">
               <a
                 href={`https://${content.texts.blog.blogLink}`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
-                {content.texts.blog.label}
+                {t("blog.label")}
               </a>
             </Paragraphs>
           </MotionDivDownToUp>
@@ -78,27 +83,6 @@ function BlogPosts() {
       </SectionArea>
     </div>
   );
-
-  // return (
-  //   <div>
-  //     <WordPressBlogCard />
-  //     <h2>Últimas postagens</h2>
-  //     <ul>
-  //       {posts.map((post) => (
-  //         <li key={post.ID}>
-  //           <h3 dangerouslySetInnerHTML={{ __html: post.title }} />
-  //           <p dangerouslySetInnerHTML={{ __html: post.excerpt }} />
-  //           {post.featured_image && (
-  //             <img src={post.featured_image} alt="Imagem do post" width="300" />
-  //           )}
-  //           <a href={post.URL} target="_blank" rel="noopener noreferrer">
-  //             Ler mais
-  //           </a>
-  //         </li>
-  //       ))}
-  //     </ul>
-  //   </div>
-  // );
 }
 
 export default BlogPosts;
