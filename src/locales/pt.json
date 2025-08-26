@@ -1,8 +1,8 @@
 {
   "infos": {
-    "adress": "A_Definir <br/> A_Definir",
+    "adress": "Av. Gov. Agamenon Magalhães, <br/> nº 4096 Recife - PE, <br/> CEP: 50050-290",
     "adressSecundario": "A_Definir",
-    "expediente": "Segunda a sexta-feira: <br/> A_Definir",
+    "expediente": "Segunda a sexta-feira: <br/> 9h às 18h",
     "expedienteSecundario": "A_Definir",
     "obs": "A_Definir"
   },
@@ -11,6 +11,7 @@
       "home": "Início",
       "service": "Serviços",
       "about": "Sobre Nós",
+      "blog": "Blog",
       "faq": "Perguntas Frequentes",
       "maps": "Mapa"
     },
@@ -18,42 +19,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM RECIFE - PE",
+    "title": "A vida não espera  <span class=\"text-primary font-bold\">pela justiça</span>",
+    "subtitle": "Cuidamos do que é essencial para você, com atenção única e soluções que vão além da lei.",
+    "ctaButtonText": "Vamos resolver agora",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento presencial mediante agendamento e online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ESPECIALIDADES",
+    "title": "Áreas de atuação jurídica",
+    "subtitle": "Compromisso em oferecer soluções personalizadas para proteger seus interesses.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito de Família",
+      "subtitle": "Soluções legais em divórcio, guarda e pensão.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito das Sucessões",
+      "subtitle": "Planejamento e inventário para herdeiros.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Previdenciário",
+      "subtitle": "Apoio em aposentadoria e benefícios do INSS.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Consultoria Jurídica",
+      "subtitle": "Orientação estratégica para decisões seguras.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -75,35 +76,35 @@
     }
   },
   "maps": {
-    "minitag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "minitag": "LOCALIZAÇÃO",
+    "title": "Encontre-nos em Recife",
+    "subtitle": "Visite nosso endereço e confira no mapa abaixo como chegar facilmente.",
     "embedsrc": "A_Definir"
   },
   "about": {
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É ALBUQUERQUE E ALEXANDRINO",
+    "title": "Nossa trajetória",
+    "subtitle": "Experiência, acolhimento e excelência para transformar desafios em soluções.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph":"A_Definir",
-    "modal": "a_Definir",
+    "paragraph": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas.",
+    "modal": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas. <br/><br/> Com quase uma década de experiência, o escritório se consolidou pela atuação em causas complexas, diálogo próximo com o cliente e atendimento humanizado, sempre priorizando confiança e clareza. <br/><br/> Nosso compromisso é oferecer soluções jurídicas personalizadas e sensíveis, cuidando de cada caso com atenção única e transformando momentos desafiadores em caminhos seguros.",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
-      "labelFacebook": "A_Definir",
-      "labelLinkedin": "A_Definir",
-      "labelX": "A_Definir"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no LinkedIn",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\" font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\" font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"
@@ -136,11 +137,11 @@
     }
   },
   "blog": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "BLOG",
+    "title": "Informação jurídica ao seu alcance",
+    "subtitle": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "labelCards": "A_Definir",
-    "label": "A_Definir",
+    "label": "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
     "blogLink": "A_Definir"
   },
   "faq": {
