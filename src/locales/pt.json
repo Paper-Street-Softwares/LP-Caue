@@ -84,22 +84,22 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "QUEM É ALBUQUERQUE E ALEXANDRINO",
+    "title": "Nossa trajetória",
+    "subtitle": "Experiência, acolhimento e excelência para transformar desafios em soluções.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "A_Definir",
-    "modal": "a_Definir",
+    "paragraph": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas.",
+    "modal": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas. <br/><br/> Com quase uma década de experiência, o escritório se consolidou pela atuação em causas complexas, diálogo próximo com o cliente e atendimento humanizado, sempre priorizando confiança e clareza. <br/><br/> Nosso compromisso é oferecer soluções jurídicas personalizadas e sensíveis, cuidando de cada caso com atenção única e transformando momentos desafiadores em caminhos seguros.",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
-      "miniTag": "A_Definir",
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
-      "labelInstagram": "Siga-me no Instagram",
-      "labelFacebook": "Siga-me no Facebook",
-      "labelLinkedin": "Siga-me no LinkedIn",
-      "labelX": "Siga-me no X"
+      "miniTag": "REDES SOCIAIS",
+      "title": "Conecte-se agora mesmo",
+      "subtitle": "Aproveite nossas redes sociais para mantermos contato e ficar por dentro de atualizações importantes no mundo do direito.",
+      "labelInstagram": "Siga-nos no Instagram",
+      "labelFacebook": "Siga-nos no Facebook",
+      "labelLinkedin": "Siga-nos no LinkedIn",
+      "labelX": "Siga-nos no X"
     }
   },
   "ctaSecondary": {
