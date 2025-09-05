@@ -546,7 +546,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "albuquerquealexandrino.wordpress.com", //sem "https://"
+      blogLink: "albuquerquealexandrino5.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
