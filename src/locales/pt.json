@@ -9,7 +9,7 @@
   "navbar": {
     "menuItems": {
       "service": "Serviços",
-      "blog": "Blog",
+      "blog": "Artigo",
       "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
