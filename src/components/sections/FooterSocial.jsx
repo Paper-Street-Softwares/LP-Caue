@@ -42,9 +42,9 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
     >
       <SectionArea paddingtop={true} paddingbot={false} className="pb-[23px]">
         <SectionWrapper className="gap-[42px]">
-          <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-between">
+          <div className="w-full max-w-[1215px] flex flex-col gap-y-[80px] desktop1:flex-row desktop1:justify-evenly">
             {/* Coluna 1 */}
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
+            <div className="flex flex-col gap-y-[16px] desktop1:w-[300px] text-paragraph3 ">
               <LogoFooter />
               <PhoneFooter colorMode={colorMode} />
               <EmailFooter />
@@ -54,32 +54,32 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
             </div>
 
             {/* Coluna 2 */}
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-              {/* <MidTextFooter />
-              <ParagrapfFooter /> */}
+            {/* <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+              <MidTextFooter />
+              <ParagrapfFooter />
               <MotionDivDownToUp>
-                {/* Aqui os textos foram atualizados */}
                 <p className="opacity-90">
                   {content.texts.footerSocialTextNew}
                 </p>
                 <div className="mt-2 opacity-90">
                   <div className="flex gap-[10px] items-center">
-                    <FooterSocialIcons
-                      instagram={true}
-                      facebook={false}
-                      linkedin={false}
-                      tiktok={false}
-                      x={false}
-                    />
+                  
                   </div>
                 </div>
               </MotionDivDownToUp>
-            </div>
+            </div> */}
 
             {/* Coluna 3 */}
-            <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
+            <div className="flex flex-col gap-y-[16px] desktop1:w-[300px] ">
               <NavegationTextFooter />
               <LinksNavegationFooter mode={mode} />
+              <FooterSocialIcons
+                instagram={true}
+                facebook={false}
+                linkedin={false}
+                tiktok={false}
+                x={false}
+              />
             </div>
           </div>
           <CopyrightFooter />

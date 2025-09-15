@@ -28,7 +28,7 @@ export default function Maps({ colorMode }) {
   const titleColor = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea className={`${bgClass}`} id="maps" paddingbot={false}>
+    <SectionArea className={`${bgClass}`} id="maps" paddingbot={true}>
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <MotionDivDownToUp className="flex flex-col justify-center w-full">
           <SectionHeader
