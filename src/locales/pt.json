@@ -8,7 +8,7 @@
   },
   "navbar": {
     "menuItems": {
-      "about": "Sobre Nós",
+      "service": "Serviços",
       "blog": "Blog",
       "faq": "Perguntas Frequentes"
     },
@@ -16,42 +16,42 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "ESCRITÓRIO DE ADVOCACIA EM RECIFE - PE",
-    "title": "A vida não espera  <span class=\"text-primary font-bold\">pela justiça</span>",
-    "subtitle": "Cuidamos do que é essencial para você, com atenção única e soluções que vão além da lei.",
+    "miniTag": "",
+    "title": "",
+    "subtitle": "",
     "ctaButtonText": "Vamos resolver agora",
     "obsHero": {
       "text": "Atendimento presencial mediante agendamento e online para todo Brasil."
     }
   },
   "features": {
-    "miniTag": "ESPECIALIDADES",
-    "title": "Áreas de atuação jurídica",
-    "subtitle": "Compromisso em oferecer soluções personalizadas para proteger seus interesses.",
+    "miniTag": "",
+    "title": "Áreas de atuação",
+    "subtitle": "Soluções consultivas e contenciosas personalizadas ",
     "card1": {
-      "title": "Direito de Família",
-      "subtitle": "Soluções legais em divórcio, guarda e pensão.",
+      "title": "Direito Cível",
+      "subtitle": "Contratos empresariais, regularização imobiliária, usucapião, execuções cíveis.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card2": {
-      "title": "Direito das Sucessões",
-      "subtitle": "Planejamento e inventário para herdeiros.",
+      "title": "Família e Sucessões",
+      "subtitle": "Inventário, Divórcio, Doações, Testamento, Alimentos, Guarda",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card3": {
       "title": "Direito Previdenciário",
-      "subtitle": "Apoio em aposentadoria e benefícios do INSS.",
+      "subtitle": "Procedimento administrativo, judicial e planejamento previdenciário",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir"
     },
     "card4": {
-      "title": "Consultoria Jurídica",
-      "subtitle": "Orientação estratégica para decisões seguras.",
+      "title": "Planejamento Estratégico",
+      "subtitle": "Atuação consultiva e soluções jurídicas em todas as áreas de especialidade.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
       "buttonLabel": "A_Definir",
@@ -82,12 +82,12 @@
     "imagem": {
       "alt": "imagem about"
     },
-    "miniTag": "QUEM É ALBUQUERQUE E ALEXANDRINO",
-    "title": "Nossa trajetória",
+    "miniTag": "",
+    "title": "Sobre o escritório",
     "subtitle": "Experiência, acolhimento e excelência para transformar desafios em soluções.",
     "buttonModalLabelAbout": "Continuar lendo",
-    "paragraph": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas.",
-    "modal": "O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas. <br/><br/> Com quase uma década de experiência, o escritório se consolidou pela atuação em causas complexas, diálogo próximo com o cliente e atendimento humanizado, sempre priorizando confiança e clareza. <br/><br/> Nosso compromisso é oferecer soluções jurídicas personalizadas e sensíveis, cuidando de cada caso com atenção única e transformando momentos desafiadores em caminhos seguros.",
+    "paragraph": " O Albuquerque & Alexandrino nasceu da amizade de dois colegas de faculdade, que se conheceram em 2014 no Recife e, após anos de parceria, oficializaram em 2024 a união de suas trajetórias jurídicas. <br/><br/>  Com quase uma década de experiência, o escritório se consolidou pela atuação em causas complexas, diálogo próximo com o cliente e atendimento humanizado, sempre priorizando confiança e clareza. <br/><br/>  Nosso compromisso é oferecer soluções jurídicas personalizadas e sensíveis, cuidando de cada caso com atenção única e transformando momentos desafiadores em caminhos seguros. ",
+    "modal": "",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
@@ -101,7 +101,7 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\" font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\" font-bold\">estamos te esperando.</span>",
+    "title": "Agende uma consulta estratégica com um dos nossos sócios",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

@@ -28,7 +28,7 @@ export default function CtaSecondary({ colorMode = "default" }) {
   return (
     <SectionArea className={`${bgClass}`}>
       <SectionWrapper>
-        <div className="flex flex-col desktop1:flex-row justify-evenly">
+        <div className="flex flex-col desktop1:flex-row justify-evenly items-center">
           <div className="desktop1:w-[45%]">
             <SectionHeader
               colorMode="dark"

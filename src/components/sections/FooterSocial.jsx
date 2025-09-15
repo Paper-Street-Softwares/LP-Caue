@@ -55,8 +55,8 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
 
             {/* Coluna 2 */}
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
-              <MidTextFooter />
-              <ParagrapfFooter />
+              {/* <MidTextFooter />
+              <ParagrapfFooter /> */}
               <MotionDivDownToUp>
                 {/* Aqui os textos foram atualizados */}
                 <p className="opacity-90">

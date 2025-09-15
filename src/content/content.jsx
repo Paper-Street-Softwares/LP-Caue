@@ -118,7 +118,7 @@ const content = {
         alt: `Logomarca ${infos.name}`,
       },
       menuItems: ["Serviços", "Artigos", "Perguntas Frequentes"],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuId: ["service", "blog", "faq"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",

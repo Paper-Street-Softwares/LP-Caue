@@ -27,21 +27,21 @@ export default function Steps({ colorMode }) {
   return (
     <SectionArea className={`${bgClass}`} paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
+        {/* <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl shadow-custom-opacity shadow-shadowSteps/10">
           <img
             src={content.texts.steps.img}
             alt={content.texts.steps.img}
             className="w-[100%] desktop1:w-[415px] desktop2:w-[485px] rounded-xl"
           />
-        </MotionDivDownToUp>
+        </MotionDivDownToUp> */}
 
-        <div className="desktop1:w-[550px] desktop2:w-[570px]">
+        <div className="desktop1:w-full">
           <SectionHeader
-            className="hidden text-center desktop1:flex"
+            className="hidden text-center desktop1:flex justify-center"
             miniTitle={t("steps.miniTag")}
             sectionHeaderTitle={t("steps.title")}
             sectionHeaderSubtitle={t("steps.subtitle")}
-            type="article"
+            type=""
             titleColorSet={titleColor}
           />
           <SectionHeader
@@ -50,7 +50,7 @@ export default function Steps({ colorMode }) {
             sectionHeaderTitle={t("steps.title")}
             sectionHeaderSubtitle={t("steps.subtitle")}
             color={colorMode ? "light" : ""}
-            type={colorMode ? "" : "article"}
+            type={colorMode ? "" : ""}
             titleColorSet={titleColor}
           />
 
