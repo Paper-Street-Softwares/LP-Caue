@@ -8,12 +8,9 @@
   },
   "navbar": {
     "menuItems": {
-      "home": "Início",
-      "service": "Serviços",
       "about": "Sobre Nós",
       "blog": "Blog",
-      "faq": "Perguntas Frequentes",
-      "maps": "Mapa"
+      "faq": "Perguntas Frequentes"
     },
     "ctaButtonText": "Contato",
     "ctaButtonTextResponsive": "Contato"

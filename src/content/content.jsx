@@ -52,7 +52,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Albuquerque & Alexandrino Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "atendimento@albuquerquealexandrino.adv.br", // Email desejado pelo cliente
   domain: "albuquerquealexandrino.adv.br", // Sem "www"
   phone: {
     ddd: "81",
@@ -117,14 +117,7 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Blog",
-        "Perguntas Frequentes",
-        "Mapa",
-      ],
+      menuItems: ["Serviços", "Artigos", "Perguntas Frequentes"],
       menuId: ["home", "service", "about", "blog", "faq", "maps"],
 
       ctaButtonText: "Contato",
@@ -420,7 +413,8 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "https://www.google.com/maps/embed?pb=!4v1756212489575!6m8!1m7!1sCs2Yyl9C0HAdwaLR21CVEQ!2m2!1d-8.041318432500018!2d-34.88354085245371!3f339.03!4f0!5f0.7820865974627469",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!4v1756212489575!6m8!1m7!1sCs2Yyl9C0HAdwaLR21CVEQ!2m2!1d-8.041318432500018!2d-34.88354085245371!3f339.03!4f0!5f0.7820865974627469",
     },
     about: {
       imagem: {

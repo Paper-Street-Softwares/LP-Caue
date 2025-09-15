@@ -21,7 +21,6 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
   const { t } = useTranslation();
   const [visible, setVisible] = useState(false);
   const [visibleSections, setVisibleSections] = useState([]);
-  const [scrolled, setScrolled] = useState(false);
 
   const toggleSidebar = () => setVisible(!visible);
 
@@ -30,7 +29,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     const allIds = Object.keys(menuItemsObj);
     const paired = allIds.map((id) => ({
       id,
-      label: menuItemsObj[id], // label já traduzido via t()
+      label: menuItemsObj[id],
     }));
 
     if (mode === "site") {
@@ -41,14 +40,7 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     }
   }, [mode, t]);
 
-  const icons = [
-    <HomeIcon />,
-    <UserSearch />,
-    <ServerIcon />,
-    <FileText />,
-    <HelpCircle />,
-    <MapPin />,
-  ];
+  const icons = [<UserSearch />, <FileText />, <HelpCircle />];
 
   return (
     <div className="inset-0 z-10 flex">
@@ -118,7 +110,16 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
                             <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                               {icons[index] || <HelpCircle />}
                               <span className="ml-[8px]">
-                                {mode === "site" ? (
+                                {id === "blog" ? (
+                                  <a
+                                    href="https://albuquerquealexandrino5.wordpress.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="align-text-top cursor-pointer"
+                                  >
+                                    {label}
+                                  </a>
+                                ) : mode === "site" ? (
                                   <RouterLink
                                     to={
                                       id === "inicio"
