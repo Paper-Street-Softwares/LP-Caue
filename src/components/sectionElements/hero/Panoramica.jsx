@@ -34,7 +34,7 @@ export default function Panoramica({ appDownloadButtons }) {
             <div className="w-full text-secondary justify-evenly">
               <div className="h-[125px] desktop3:h-[140px]" />
               <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
-                <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+                {/* <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                       <p className="mb-[16px] bg-primary text-colorBlack bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
@@ -127,11 +127,11 @@ export default function Panoramica({ appDownloadButtons }) {
                       </MotionDivDownToUp>
                     )}
                   </div>
-                </div>
+                </div> */}
                 <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                   <MotionDivDownToUp className="relative flex justify-end w-full ">
                     <div
-                      className=" bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat tablet1:shadow-custom-opacity tablet1:shadow-shadowHero"
+                      className=" bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat tablet1:shadow-custom-opacity tablet1:shadow-shadowHero/20"
                       style={{
                         backgroundImage: `url(${content.texts.hero.heroDefaultImage})`,
                         backgroundSize: "",
@@ -158,11 +158,11 @@ export default function Panoramica({ appDownloadButtons }) {
             <div className="absolute inset-0 w-[65%] h-full bg-gradient-to-r from-darker to-transparent" />
 
             <SectionWrapper>
-              <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] ">
+              <div className="relative z-10 flex w-full items-left pt-[36px] desktop1:py-[90px] desktop2:pb-[90px] h-[90vh] ">
                 <div className="w-full text-secondary ">
                   <div className="h-[100px] desktop1:h-[140px]" />
                   <div className="flex flex-col-reverse gap-[40px] desktop1:flex-row desktop1:justify-between w-full items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
-                    <div className="flex flex-col w-full desktop1:w-[50%] ">
+                    {/* <div className="flex flex-col w-full desktop1:w-[50%] ">
                       <MotionDivDownToUp>
                         <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                           <p className="mb-[16px] bg-primary text-colorBlack bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
@@ -263,7 +263,7 @@ export default function Panoramica({ appDownloadButtons }) {
                           </MotionDivDownToUp>
                         )}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

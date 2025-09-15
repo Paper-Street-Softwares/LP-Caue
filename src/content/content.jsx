@@ -52,7 +52,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Albuquerque & Alexandrino Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "atendimento@albuquerquealexandrino.adv.br", // Email desejado pelo cliente
   domain: "albuquerquealexandrino.adv.br", // Sem "www"
   phone: {
     ddd: "81",
@@ -117,15 +117,8 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: [
-        "Início",
-        "Serviços",
-        "Sobre Nós",
-        "Blog",
-        "Perguntas Frequentes",
-        "Mapa",
-      ],
-      menuId: ["home", "service", "about", "blog", "faq", "maps"],
+      menuItems: ["Serviços", "Artigos", "Perguntas Frequentes"],
+      menuId: ["service", "blog", "faq"],
 
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
@@ -218,11 +211,10 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-users-icon lucide-users"
+            class="lucide lucide-user-check-icon lucide-user-check"
           >
+            <path d="m16 11 2 2 4-4" />
             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
             <circle cx="9" cy="7" r="4" />
           </svg>
         ),
@@ -253,10 +245,11 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-user-check-icon lucide-user-check"
+            class="lucide lucide-users-icon lucide-users"
           >
-            <path d="m16 11 2 2 4-4" />
             <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
             <circle cx="9" cy="7" r="4" />
           </svg>
         ),
@@ -420,7 +413,8 @@ const content = {
       minitag: "A_Definir",
       title: "A_Definir",
       subtitle: "A_Definir",
-      embedsrc: "https://www.google.com/maps/embed?pb=!4v1756212489575!6m8!1m7!1sCs2Yyl9C0HAdwaLR21CVEQ!2m2!1d-8.041318432500018!2d-34.88354085245371!3f339.03!4f0!5f0.7820865974627469",
+      embedsrc:
+        "https://www.google.com/maps/embed?pb=!4v1756212489575!6m8!1m7!1sCs2Yyl9C0HAdwaLR21CVEQ!2m2!1d-8.041318432500018!2d-34.88354085245371!3f339.03!4f0!5f0.7820865974627469",
     },
     about: {
       imagem: {

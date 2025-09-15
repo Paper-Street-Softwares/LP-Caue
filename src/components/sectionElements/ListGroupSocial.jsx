@@ -1,5 +1,5 @@
 import { Link as ScrollLink } from "react-scroll";
-import { Link as RouterLink, useLocation } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Button from "../interactives/Button";
 import { useTranslation } from "react-i18next";
@@ -10,11 +10,13 @@ export default function ListGroupSocial({
 }) {
   const { t } = useTranslation();
   const [visibleSections, setVisibleSections] = useState([]);
-  const location = useLocation();
+
+  // URL externa para o blog
+  const BLOG_URL = "https://albuquerquealexandrino5.wordpress.com/";
 
   useEffect(() => {
     // IDs do menu (mesma ordem do pt.json)
-    const allIds = ["home", "service", "about", "blog", "faq", "maps"];
+    const allIds = ["service", "blog", "faq"];
 
     // Pega labels direto do pt.json via i18next
     const allLabels = t("navbar.menuItems", { returnObjects: true });
@@ -28,7 +30,10 @@ export default function ListGroupSocial({
     if (mode === "site") {
       setVisibleSections(paired);
     } else {
-      const filtered = paired.filter(({ id }) => !!document.getElementById(id));
+      // Mantém 'blog' sempre visível, mesmo que não exista um elemento #blog na página
+      const filtered = paired.filter(
+        ({ id }) => id === "blog" || !!document.getElementById(id)
+      );
       setVisibleSections(filtered);
     }
   }, [mode, t]);
@@ -65,7 +70,24 @@ export default function ListGroupSocial({
           key={id}
           className="transition group h-[24px] desktop1:w-[50%] desktop2:w-auto text-center"
         >
-          {mode === "blog" ? (
+          {/* PRIORIDADE: se for blog -> abre URL externa */}
+          {id === "blog" ? (
+            <a
+              href={BLOG_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative font-semibold cursor-pointer"
+            >
+              <span
+                className={`h-[24px] inline-block text-paragraph3 ${getHoverTextColor()} ${textShadow}`}
+              >
+                {label}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </a>
+          ) : mode === "blog" ? (
             <ScrollLink
               to={id}
               className="relative font-semibold cursor-pointer"
@@ -91,7 +113,7 @@ export default function ListGroupSocial({
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                {label} {/* <-- label do pt.json */}
+                {label}
               </span>
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}

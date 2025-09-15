@@ -26,16 +26,16 @@ export default function HowItWorksCard({
   }
 
   const BaseContent = (
-    <div className="flex flex-col items-center justify-center transition desktop1:items-start font-mainFont desktop1:hover:scale-110 h-auto">
+    <div className="flex flex-col items-center justify-start transition desktop1:items-center font-mainFont desktop1:hover:scale-110 min-h-[300px] desktop1:w-[200px]">
       <div className="bg-buttonColor mb-[32px] p-[25px] flex justify-center items-center rounded-full h-[48px] w-[48px] text-labelButtons text-title1 font-semibold">
         {number}
       </div>
 
-      <h1 className={`text-[20px] font-bold mb-[24px] ${textColor}`}>
+      <h1 className={`text-[20px] text-center font-bold mb-[24px] ${textColor}`}>
         {title}
       </h1>
       <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center desktop1:text-center w-full desktop1:max-w-[300px] ${textColor} ${textOpacity}`}
       >
         {description}
       </p>
@@ -58,7 +58,7 @@ export default function HowItWorksCard({
   );
 
   return animation ? (
-    <MotionDivDownToUp className="tablet1:w-[45%]">{BaseContent}</MotionDivDownToUp>
+    <MotionDivDownToUp className="tablet1:w-[45%] desktop1:w-auto  m-auto">{BaseContent}</MotionDivDownToUp>
   ) : (
     StaticContent
   );

@@ -11,15 +11,14 @@ function LinksNavegationFooter({ mode = "blog" }) {
   useEffect(() => {
     const menuItems = t("navbar.menuItems", { returnObjects: true }) || {};
 
-    const allIds = Object.keys(menuItems); // ["inicio", "service", "about", "faq"]
-    const allLabels = Object.values(menuItems); // ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"]
+    const allIds = Object.keys(menuItems); // ["inicio", "service", "about", "faq", "blog"]
+    const allLabels = Object.values(menuItems);
 
     const paired = allIds.map((id, index) => ({
       id,
       label: allLabels[index] || id,
     }));
 
-    // Agora SEM filtro -> mostra sempre todos os links
     setVisibleLinks(paired);
   }, [t]);
 
@@ -28,6 +27,21 @@ function LinksNavegationFooter({ mode = "blog" }) {
   const secondHalf = visibleLinks.slice(half);
 
   const renderLink = (id, label) => {
+    if (id === "blog") {
+      return (
+        <a
+          href="https://albuquerquealexandrino5.wordpress.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer"
+        >
+          <span className="inline-block h-[48px] hover:underline hover:scale-110 transition">
+            {label}
+          </span>
+        </a>
+      );
+    }
+
     if (mode === "blog") {
       return (
         <ScrollLink
